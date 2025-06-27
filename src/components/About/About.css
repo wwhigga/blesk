@@ -1,0 +1,52 @@
+.about-section {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.about-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+
+.tabs {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.tabs button.active {
+  background-color: #ff9900;
+  color: #fff;
+  border-color: #ff9900;
+}
+
+.tab-content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tab-content th, .tab-content td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.tab-content th {
+  background-color: #f2f2f2;
+}
+
+.tab-content td:last-child {
+  text-align: center;
+  font-weight: bold;
+  color: green;
+} 

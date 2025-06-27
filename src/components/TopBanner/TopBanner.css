@@ -1,0 +1,48 @@
+.top-banner {
+    background: #ff9900;
+    color: white;
+    padding: 15px 0;
+    background-image: url('../../assets/top_panel.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 50%;
+}
+.banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-text {
+    max-width: 45%;
+}
+.banner-text p {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.banner-text p.free {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1;
+}
+.banner-action .order-button-banner {
+    background-color: white;
+    border: 2px solid white;
+    color: #ff9900;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.banner-action .order-button-banner:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+} 

@@ -1,0 +1,141 @@
+.our-works-section {
+  padding: 80px 0;
+  background-color: #f5f5f5;
+}
+
+.our-works-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.works-slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.works-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.before-after-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-box {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.work-image {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.image-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255,153,0,0.9);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,153,0,0.9);
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.slider-btn:hover {
+  background: #ff9900;
+  box-shadow: 0 5px 15px rgba(255,153,0,0.4);
+}
+
+.prev-btn {
+  left: -70px;
+}
+
+.next-btn {
+  right: -70px;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dot.active,
+.dot:hover {
+  background: #ff9900;
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .our-works-section {
+    padding: 60px 0;
+  }
+  
+  .before-after-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .work-image {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .slider-btn {
+    display: none;
+  }
+  
+  .our-works-section h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .work-image {
+    width: 250px;
+    height: 150px;
+  }
+} 

@@ -1,0 +1,86 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.footer-logo {
+  flex: 1;
+}
+
+.footer-logo a.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.footer-logo .logo-img {
+  height: 50px;
+  filter: brightness(0) invert(1); /* Makes the icon white */
+}
+
+.footer-logo .logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo .logo-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.footer-logo .logo-subtitle {
+  font-size: 10px;
+  color: #ccc;
+  letter-spacing: 0.5px;
+}
+
+.footer-links, .footer-contacts {
+  flex: 2;
+}
+
+.footer-links h4, .footer-contacts h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer-links a, .footer-contacts p {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.footer-links .disabled-link {
+  display: block;
+  color: #666;
+  margin-bottom: 12px;
+  font-size: 16px;
+  cursor: not-allowed;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #aaa;
+}

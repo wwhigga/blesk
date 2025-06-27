@@ -1,0 +1,9 @@
+.top-panel {
+  text-align: center;
+  background-color: #333; /* A fallback color */
+}
+
+.top-panel img {
+  max-width: 100%;
+  display: block;
+} 

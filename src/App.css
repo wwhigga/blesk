@@ -1,0 +1,13 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+button, .service-button-link, .order-button-banner {
+  transition: transform 0.1s ease-in-out;
+}
+
+button:active, .service-button-link:active, .order-button-banner:active {
+  transform: scale(0.98);
+} 

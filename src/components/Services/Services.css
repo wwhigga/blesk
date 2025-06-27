@@ -1,0 +1,73 @@
+.services-section {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.services-section h2 {
+  text-align: left;
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  overflow-x: auto; /* for horizontal scroll on smaller screens */
+}
+
+.service-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left;
+  min-width: 280px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card h3 {
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.service-card p {
+  margin: 15px 0;
+  color: #555;
+  flex-grow: 1; /* Allow description to take up space */
+}
+
+.service-card span {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.service-card button {
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+}
+
+.service-card .service-button-link {
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin-top: auto;
+} 
